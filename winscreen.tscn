@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://cmelybyht6v1t"]
+
+[ext_resource type="Script" uid="uid://dk72tjjgevuwb" path="res://winscreen.gd" id="1_y55kr"]
+
+[node name="Winscreen" type="Control" unique_id=1598245916]
+modulate = Color(0.9886109, 0.82321554, 0.9053786, 1)
+self_modulate = Color(0.7346547, 0.9149342, 0.96739644, 1)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1161.0
+offset_bottom = 652.0
+script = ExtResource("1_y55kr")
+
+[node name="Label" type="Label" parent="." unique_id=911449019]
+layout_mode = 0
+offset_left = 321.0
+offset_top = 236.0
+offset_right = 592.0
+offset_bottom = 324.0
+theme_override_colors/font_color = Color(0.16470589, 1, 1, 1)
+theme_override_font_sizes/font_size = 64
+text = "You Win!"
+
+[node name="Button" type="Button" parent="." unique_id=1808467753]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 380.0
+offset_right = 623.0
+offset_bottom = 515.0
+theme_override_font_sizes/font_size = 45
+text = "Play Again"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
