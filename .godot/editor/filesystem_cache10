@@ -1,0 +1,18 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1781104114
+enemy.gd::GDScript::2131696629369500510::1781103939::0::1::::<>CharacterBody2D<><>0<>0<><>::
+enemy.tscn::PackedScene::8739536018439207120::1781103939::0::1::::<><><>0<>0<><>::uid://5muy5iewrn3k::::res://enemy.gd<>uid://cwa5ktx50pfwc::::res://pixil-frame-0.png
+goal.gd::GDScript::9046626789428831906::1781103939::0::1::::<>Area2D<><>0<>0<><>::
+goal.tscn::PackedScene::8394534228214744489::1781103939::0::1::::<><><>0<>0<><>::uid://d15ivepfybdfe::::res://goal.gd<>uid://ckfi8l27kc65f::::res://icon.svg
+icon.svg::CompressedTexture2D::5485596980611801325::1781103939::1781104115::1::::<><><>0<>0<>8aad29f6d4c446d3d0738c538606a969<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+loosescreen.gd::GDScript::8025562853198048907::1781103939::0::1::::<>Control<><>0<>0<><>::
+loosescreen.tscn::PackedScene::6404544544487414267::1781103939::0::1::::<><><>0<>0<><>::uid://dmlv3240sn4uh::::res://loosescreen.gd
+main.tscn::PackedScene::243945387029903079::1781103939::0::1::::<><><>0<>0<><>::uid://cbm5nc7niitq1::::res://player.tscn<>uid://5vds57ijxfsf::::res://platform.tscn<>uid://drum0tvxm7spd::::res://goal.tscn<>uid://dwrq474bdrvkq::::res://enemy.tscn
+node_2d.tscn::PackedScene::408367442765922542::1781103939::0::1::::<><><>0<>0<><>::
+pixil-frame-0.png::CompressedTexture2D::6318836330016178954::1781103939::1781104115::1::::<><><>0<>0<>9fafb4052bdda06c9d226ec48dfa8fed<>res://.godot/imported/pixil-frame-0.png-ad73aed19b00fd55eeaf2db0cae8f8ff.ctex::
+pixilart-drawing (1).png::CompressedTexture2D::1794458370748469730::1781103939::1781104115::1::::<><><>0<>0<>7aacb2b130a7762ca78b3df8c41d1c76<>res://.godot/imported/pixilart-drawing (1).png-a06dd7ecb7dd12cfff881924d4a1bf7f.ctex::
+platform.tscn::PackedScene::2149233162755480773::1781103939::0::1::::<><><>0<>0<><>::
+player.gd::GDScript::762321667674265753::1781103939::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::4869647624258839142::1781103939::0::1::::<><><>0<>0<><>::uid://ckfi8l27kc65f::::res://icon.svg<>uid://k4jldoml3qjx::::res://player.gd
+winscreen.gd::GDScript::7928884351370625573::1781103939::0::1::::<>Control<><>0<>0<><>::
+winscreen.tscn::PackedScene::5624075837976316515::1781103939::0::1::::<><><>0<>0<><>::uid://dk72tjjgevuwb::::res://winscreen.gd

@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dqf0lc5wmasd"]
 
 [ext_resource type="PackedScene" uid="uid://cbm5nc7niitq1" path="res://player.tscn" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://0tip5csi473c" path="res://pixilart-drawing (1).png" id="1_lquwl"]
 [ext_resource type="PackedScene" uid="uid://5vds57ijxfsf" path="res://platform.tscn" id="2_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://drum0tvxm7spd" path="res://goal.tscn" id="4_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://dwrq474bdrvkq" path="res://enemy.tscn" id="5_lquwl"]
@@ -13,6 +14,7 @@ distance = -555.0
 [node name="PixilFrame0" type="Sprite2D" parent="." unique_id=2100588204]
 position = Vector2(588.50006, 334.25)
 scale = Vector2(12.509999, 6.385)
+texture = ExtResource("1_lquwl")
 
 [node name="ground" type="StaticBody2D" parent="PixilFrame0" unique_id=894711184]
 position = Vector2(-47.042374, -52.34925)
